@@ -1,0 +1,12 @@
+name: Greetings kwaaie aap. Hou van je mee heel m'n hart. 
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: $'kpeiS da ge aids hed }
+        pr-message: 'Message that will be displayed on users'' first pr'
